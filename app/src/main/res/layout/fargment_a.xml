@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+                <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="50sp"
+                   android:id="@+id/button_chamber"
+                  android:layout_margin="10sp"
+                   android:background="#e50606"
+                   android:text="Chamber"
+                   android:textColor="#ffffff"
+                   android:paddingRight="50sp"/>
+
+
+               <Button
+                  android:layout_width="match_parent"
+                   android:layout_height="50sp"
+                   android:layout_marginRight="10sp"
+                   android:layout_marginBottom="10sp"
+                   android:layout_marginLeft="10sp"
+                   android:id="@+id/button_batterysaving"
+                   android:background="#ef9037"
+                   android:text="Power saving mode"
+                   android:textColor="#ffffff"
+                   android:paddingRight="30sp"/>
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/my_recycler_view">
+
+       </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
